@@ -1,0 +1,15 @@
+name: FarmHunt
+main: net.devras.farmhunt.Game
+version: 1.0.0
+author: kemasama
+description: FarmHunt
+softdepend: [Multiverse-Core]
+
+commands:
+  fmh:
+    permission: fmh.admin
+    aliases: [FarmHunt, farm]
+
+permissions:
+  fmh.admin:
+    default: op
